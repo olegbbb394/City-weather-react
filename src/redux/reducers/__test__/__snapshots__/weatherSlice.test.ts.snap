@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`weatherSlice should render empty weatherDataArr 1`] = `
+Object {
+  "weatherDataArr": Array [],
+}
+`;
+
+exports[`weatherSlice should render weatherDataArr with data 1`] = `
+Object {
+  "weatherDataArr": Array [
+    Object {
+      "id": 703448,
+      "main": Object {
+        "pressure": 1000,
+        "temp": 35,
+      },
+      "name": "Kyiv",
+      "weather": Array [
+        Object {
+          "description": "good",
+          "icon": "o2d",
+          "id": 2,
+          "main": "good",
+        },
+      ],
+      "wind": Object {
+        "speed": 20,
+      },
+    },
+  ],
+}
+`;

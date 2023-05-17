@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SingleCard page renders the card with weather details 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "localStorageCardKey",
+      "{\\"id\\":703448,\\"main\\":{\\"pressure\\":1000,\\"temp\\":35},\\"name\\":\\"Kyiv\\",\\"weather\\":[{\\"description\\":\\"good\\",\\"icon\\":\\"o2d\\",\\"id\\":2,\\"main\\":\\"good\\"}],\\"wind\\":{\\"speed\\":20}}",
+    ],
+    Array [
+      "card",
+      "null",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`SingleCard page should render on SingleCard page 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-h9p1cd-MuiContainer-root"
+      >
+        <a
+          href="/"
+        >
+          <div
+            class="MuiBox-root css-rs1s90"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-colorSuccess MuiSvgIcon-fontSizeMedium css-dwhdbl-MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+              />
+            </svg>
+          </div>
+        </a>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-8ndliw-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-i98mg3-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-0"
+              >
+                <img
+                  alt="weather icon"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                  height="150"
+                  src="https://openweathermap.org/img/wn/undefined@2x.png"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-0"
+              >
+                <div
+                  class="MuiTypography-root MuiTypography-h4 css-1varyyh-MuiTypography-root"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-ir5tdx"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-sq3hj3-MuiTypography-root"
+            >
+              NaN
+              °
+            </h4>
+            <h6
+              class="MuiTypography-root MuiTypography-h6 css-1jgmn5n-MuiTypography-root"
+            >
+              pressure: 
+               
+              hPa
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-h6 css-1jgmn5n-MuiTypography-root"
+            >
+              description: 
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-h6 css-1jgmn5n-MuiTypography-root"
+            >
+              main: 
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-h6 css-1jgmn5n-MuiTypography-root"
+            >
+              wind: 
+               'km/h'
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-h9p1cd-MuiContainer-root"
+    >
+      <a
+        href="/"
+      >
+        <div
+          class="MuiBox-root css-rs1s90"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-colorSuccess MuiSvgIcon-fontSizeMedium css-dwhdbl-MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+            />
+          </svg>
+        </div>
+      </a>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-8ndliw-MuiPaper-root-MuiCard-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-i98mg3-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-0"
+            >
+              <img
+                alt="weather icon"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                height="150"
+                src="https://openweathermap.org/img/wn/undefined@2x.png"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-0"
+            >
+              <div
+                class="MuiTypography-root MuiTypography-h4 css-1varyyh-MuiTypography-root"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-ir5tdx"
+        >
+          <h4
+            class="MuiTypography-root MuiTypography-h4 css-sq3hj3-MuiTypography-root"
+          >
+            NaN
+            °
+          </h4>
+          <h6
+            class="MuiTypography-root MuiTypography-h6 css-1jgmn5n-MuiTypography-root"
+          >
+            pressure: 
+             
+            hPa
+          </h6>
+          <h6
+            class="MuiTypography-root MuiTypography-h6 css-1jgmn5n-MuiTypography-root"
+          >
+            description: 
+          </h6>
+          <h6
+            class="MuiTypography-root MuiTypography-h6 css-1jgmn5n-MuiTypography-root"
+          >
+            main: 
+          </h6>
+          <h6
+            class="MuiTypography-root MuiTypography-h6 css-1jgmn5n-MuiTypography-root"
+          >
+            wind: 
+             'km/h'
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

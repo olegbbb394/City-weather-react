@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page should render Home page 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-h9p1cd-MuiContainer-root"
+  >
+    <header>
+      <h1
+        class="MuiTypography-root MuiTypography-h3 css-88618i-MuiTypography-root"
+      >
+        City weather
+      </h1>
+    </header>
+    <section>
+      <div
+        class="MuiBox-root css-gqssyb"
+      >
+        <div
+          class="MuiFormControl-root css-1jveyxb-MuiFormControl-root"
+        >
+          <label
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorSuccess MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-150d6dw-MuiFormLabel-root-MuiInputLabel-root"
+            data-shrink="false"
+            id="selectId"
+          >
+            City
+          </label>
+          <div
+            class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorSuccess MuiInputBase-formControl  css-1k8trn2-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+          >
+            <div
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="labelId selectId"
+              class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+              id="selectId"
+              role="button"
+              tabindex="0"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </div>
+            <input
+              aria-hidden="true"
+              aria-invalid="false"
+              class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+              tabindex="-1"
+              value=""
+            />
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+              data-testid="ArrowDropDownIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7 10l5 5 5-5z"
+              />
+            </svg>
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-yjsfm1"
+              >
+                <span>
+                  City
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+      <form
+        autocomplete="off"
+        class="MuiBox-root css-xn6ruc"
+        novalidate=""
+      />
+    </section>
+    <section>
+      <div
+        class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row MuiGrid2-spacing-xs-2 css-1p81imu-MuiGrid2-root"
+      />
+    </section>
+  </div>
+</div>
+`;

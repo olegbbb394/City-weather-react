@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card item component should render Card item component with data 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 MuiGrid2-grid-md-2 css-tcbi16-MuiGrid2-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-i1c8im-MuiPaper-root-MuiCard-root"
+        >
+          <a
+            href="/card"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <h4
+                class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom css-1kqmfgr-MuiTypography-root"
+              >
+                Kyiv
+              </h4>
+              <div
+                class="MuiBox-root css-1u7uhqd"
+              >
+                <img
+                  alt="weather icon"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                  src="https://openweathermap.org/img/wn/o2d@2x.png"
+                />
+              </div>
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-gvjb6m-MuiTypography-root"
+              >
+                35
+                °
+              </h5>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+              >
+                pressure: 
+                1000
+                 
+                hPa
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+              >
+                description: 
+                good
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+              >
+                main: 
+                good
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+              >
+                wind: 
+                20
+                 
+                km/h
+              </p>
+            </div>
+          </a>
+          <div
+            class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSuccess MuiButton-sizeSmall MuiButton-outlinedSizeSmall MuiButton-root MuiButton-outlined MuiButton-outlinedSuccess MuiButton-sizeSmall MuiButton-outlinedSizeSmall css-1d53n18-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              Delete card
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSuccess MuiButton-sizeSmall MuiButton-outlinedSizeSmall MuiButton-root MuiButton-outlined MuiButton-outlinedSuccess MuiButton-sizeSmall MuiButton-outlinedSizeSmall css-7yf5rt-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              Update card
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 MuiGrid2-grid-md-2 css-tcbi16-MuiGrid2-root"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-i1c8im-MuiPaper-root-MuiCard-root"
+      >
+        <a
+          href="/card"
+        >
+          <div
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom css-1kqmfgr-MuiTypography-root"
+            >
+              Kyiv
+            </h4>
+            <div
+              class="MuiBox-root css-1u7uhqd"
+            >
+              <img
+                alt="weather icon"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                src="https://openweathermap.org/img/wn/o2d@2x.png"
+              />
+            </div>
+            <h5
+              class="MuiTypography-root MuiTypography-h5 css-gvjb6m-MuiTypography-root"
+            >
+              35
+              °
+            </h5>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+            >
+              pressure: 
+              1000
+               
+              hPa
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+            >
+              description: 
+              good
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+            >
+              main: 
+              good
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+            >
+              wind: 
+              20
+               
+              km/h
+            </p>
+          </div>
+        </a>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSuccess MuiButton-sizeSmall MuiButton-outlinedSizeSmall MuiButton-root MuiButton-outlined MuiButton-outlinedSuccess MuiButton-sizeSmall MuiButton-outlinedSizeSmall css-1d53n18-MuiButtonBase-root-MuiButton-root"
+            tabindex="0"
+            type="button"
+          >
+            Delete card
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSuccess MuiButton-sizeSmall MuiButton-outlinedSizeSmall MuiButton-root MuiButton-outlined MuiButton-outlinedSuccess MuiButton-sizeSmall MuiButton-outlinedSizeSmall css-7yf5rt-MuiButtonBase-root-MuiButton-root"
+            tabindex="0"
+            type="button"
+          >
+            Update card
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Card item component should saving  Selected Card data in localStorage 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "card",
+      "{\\"id\\":703448,\\"main\\":{\\"pressure\\":1000,\\"temp\\":35},\\"name\\":\\"Kyiv\\",\\"weather\\":[{\\"description\\":\\"good\\",\\"icon\\":\\"o2d\\",\\"id\\":2,\\"main\\":\\"good\\"}],\\"wind\\":{\\"speed\\":20}}",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;

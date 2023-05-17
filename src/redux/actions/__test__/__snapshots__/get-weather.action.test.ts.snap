@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getWeatherAction should dispatch setWeatherDataArr with weather data 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "payload": Array [
+          Object {
+            "id": 703448,
+            "main": Object {
+              "pressure": 1000,
+              "temp": 35,
+            },
+            "name": "Kyiv",
+            "weather": Array [
+              Object {
+                "description": "good",
+                "icon": "o2d",
+                "id": 2,
+                "main": "good",
+              },
+            ],
+            "wind": Object {
+              "speed": 20,
+            },
+          },
+        ],
+        "type": "weather/setWeatherDataArr",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`getWeatherAction should not dispatch setWeatherDataArr when getWeatherById returns null 1`] = `[MockFunction]`;
