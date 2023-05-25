@@ -1,4 +1,4 @@
-import {IWeatherState, setWeatherDataArr, weatherReducer} from "../weatherSlice";
+import {IWeatherState, setWeatherData, setWeatherDataArr, weatherReducer} from "../weatherSlice";
 
 describe('weatherSlice', () => {
 
@@ -6,11 +6,15 @@ describe('weatherSlice', () => {
 
         const state: IWeatherState = {
             weatherDataArr: [],
+            weatherData: null!,
         };
 
-        const newState = weatherReducer(state, setWeatherDataArr([]));
+        const newStateArr = weatherReducer(state, setWeatherDataArr([]));
+        const newState = weatherReducer(state, setWeatherData(null!));
 
-        expect(newState.weatherDataArr).toHaveLength(0);
+        expect(newStateArr.weatherDataArr).toHaveLength(0);
+        expect(newState.weatherData).toBeFalsy();
+        expect(newStateArr).toMatchSnapshot();
         expect(newState).toMatchSnapshot();
     });
 
@@ -37,12 +41,35 @@ describe('weatherSlice', () => {
                     speed: 20,
                 },
             }],
+
+            weatherData: {
+                id: 703448,
+
+                main: {
+                    pressure: 1000,
+
+                    temp: 35,
+                },
+                name: 'Kyiv',
+                weather: [{
+                    description: 'good',
+                    icon: 'o2d',
+                    id: 2,
+                    main: 'good',
+                }],
+
+                wind: {
+                    speed: 20,
+                },
+            },
         };
 
-        const newState = weatherReducer(state, setWeatherDataArr(state.weatherDataArr));
-
-        expect(newState.weatherDataArr).toBeTruthy();
-        expect(newState.weatherDataArr).toHaveLength(1);
+        const newStateArr = weatherReducer(state, setWeatherDataArr(state.weatherDataArr));
+        const newState = weatherReducer(state, setWeatherData(state.weatherData));
+        expect(newStateArr.weatherDataArr).toBeTruthy();
+        expect(newState.weatherData).toBeTruthy();
+        expect(newStateArr.weatherDataArr).toHaveLength(1);
+        expect(newStateArr).toMatchSnapshot();
         expect(newState).toMatchSnapshot();
     });
 });

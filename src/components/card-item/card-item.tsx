@@ -8,7 +8,7 @@ import {LocalStorage} from "../../constants/localStorage-settings.enum";
 
 import {getWeatherAction} from "../../redux/actions/get-weather.action";
 import {useTypeDispatch} from "../../hooks/use-type-dispatch";
-import {setWeatherDataArr} from "../../redux/reducers/weatherSlice";
+import {setWeatherData, setWeatherDataArr} from "../../redux/reducers/weatherSlice";
 
 type Props = {
     item: ICityWeatherItem;
@@ -25,6 +25,7 @@ export const CardItem: FC<Props> = ({item}: Props): JSX.Element => {
     const savingDataSelectedCard = (id: number) => {
         if (item?.id === id) {
             localStorage.setItem(LocalStorage.localStorageCardKey, JSON.stringify(item));
+            setWeatherData(item)
         }
     };
 

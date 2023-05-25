@@ -2,12 +2,84 @@
 
 exports[`weatherSlice should render empty weatherDataArr 1`] = `
 Object {
+  "weatherData": null,
+  "weatherDataArr": Array [],
+}
+`;
+
+exports[`weatherSlice should render empty weatherDataArr 2`] = `
+Object {
+  "weatherData": null,
   "weatherDataArr": Array [],
 }
 `;
 
 exports[`weatherSlice should render weatherDataArr with data 1`] = `
 Object {
+  "weatherData": Object {
+    "id": 703448,
+    "main": Object {
+      "pressure": 1000,
+      "temp": 35,
+    },
+    "name": "Kyiv",
+    "weather": Array [
+      Object {
+        "description": "good",
+        "icon": "o2d",
+        "id": 2,
+        "main": "good",
+      },
+    ],
+    "wind": Object {
+      "speed": 20,
+    },
+  },
+  "weatherDataArr": Array [
+    Object {
+      "id": 703448,
+      "main": Object {
+        "pressure": 1000,
+        "temp": 35,
+      },
+      "name": "Kyiv",
+      "weather": Array [
+        Object {
+          "description": "good",
+          "icon": "o2d",
+          "id": 2,
+          "main": "good",
+        },
+      ],
+      "wind": Object {
+        "speed": 20,
+      },
+    },
+  ],
+}
+`;
+
+exports[`weatherSlice should render weatherDataArr with data 2`] = `
+Object {
+  "weatherData": Object {
+    "id": 703448,
+    "main": Object {
+      "pressure": 1000,
+      "temp": 35,
+    },
+    "name": "Kyiv",
+    "weather": Array [
+      Object {
+        "description": "good",
+        "icon": "o2d",
+        "id": 2,
+        "main": "good",
+      },
+    ],
+    "wind": Object {
+      "speed": 20,
+    },
+  },
   "weatherDataArr": Array [
     Object {
       "id": 703448,
